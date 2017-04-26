@@ -1,0 +1,40 @@
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Warning: proc_open(): fork failed - Cannot allocate memory in /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php on line 974#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'proc_open(): fo...', '/var/www/html/v...', 974, Array)
+#1 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(974): proc_open('stty -a | grep ...', Array, NULL, NULL, NULL, Array)
+#2 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(784): Symfony\Component\Console\Application->getSttyColumns()
+#3 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(745): Symfony\Component\Console\Application->getTerminalDimensions()
+#4 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(675): Symfony\Component\Console\Application->getTerminalWidth()
+#5 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(133): Symfony\Component\Console\Application->renderException(Object(Exception), Object(Symfony\Component\Console\Output\StreamOutput))
+#6 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main}
+
+Warning: proc_open(): fork failed - Cannot allocate memory in /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php on line 974#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'proc_open(): fo...', '/var/www/html/v...', 974, Array)
+#1 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(974): proc_open('stty -a | grep ...', Array, NULL, NULL, NULL, Array)
+#2 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(784): Symfony\Component\Console\Application->getSttyColumns()
+#3 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(745): Symfony\Component\Console\Application->getTerminalDimensions()
+#4 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(675): Symfony\Component\Console\Application->getTerminalWidth()
+#5 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(133): Symfony\Component\Console\Application->renderException(Object(Exception), Object(Symfony\Component\Console\Output\StreamOutput))
+#6 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main}
+
+Warning: proc_open(): fork failed - Cannot allocate memory in /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php on line 974#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'proc_open(): fo...', '/var/www/html/v...', 974, Array)
+#1 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(974): proc_open('stty -a | grep ...', Array, NULL, NULL, NULL, Array)
+#2 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(784): Symfony\Component\Console\Application->getSttyColumns()
+#3 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(745): Symfony\Component\Console\Application->getTerminalDimensions()
+#4 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(675): Symfony\Component\Console\Application->getTerminalWidth()
+#5 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(133): Symfony\Component\Console\Application->renderException(Object(Exception), Object(Symfony\Component\Console\Output\StreamOutput))
+#6 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main}
+
+Warning: proc_open(): fork failed - Cannot allocate memory in /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php on line 974#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'proc_open(): fo...', '/var/www/html/v...', 974, Array)
+#1 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(974): proc_open('stty -a | grep ...', Array, NULL, NULL, NULL, Array)
+#2 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(784): Symfony\Component\Console\Application->getSttyColumns()
+#3 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(745): Symfony\Component\Console\Application->getTerminalDimensions()
+#4 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(675): Symfony\Component\Console\Application->getTerminalWidth()
+#5 /var/www/html/vendor/symfony/console/Symfony/Component/Console/Application.php(133): Symfony\Component\Console\Application->renderException(Object(Exception), Object(Symfony\Component\Console\Output\StreamOutput))
+#6 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main}
+

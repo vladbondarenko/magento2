@@ -1,0 +1,12 @@
+a:4:{i:0;s:143:"Notice: unserialize(): Error at offset 857 of 480063 bytes in /var/www/html/vendor/magento/module-config/App/Config/Type/System.php on line 106";i:1;s:1614:"#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(8, 'unserialize(): ...', '/var/www/html/v...', 106, Array)
+#1 /var/www/html/vendor/magento/module-config/App/Config/Type/System.php(106): unserialize('O:28:"Magento\\F...')
+#2 /var/www/html/vendor/magento/framework/App/Config.php(139): Magento\Config\App\Config\Type\System->get('default/system/...')
+#3 /var/www/html/vendor/magento/framework/App/Config.php(90): Magento\Framework\App\Config->get('system', 'default/system/...')
+#4 /var/www/html/vendor/magento/module-page-cache/Model/Config.php(102): Magento\Framework\App\Config->getValue('system/full_pag...')
+#5 /var/www/html/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(67): Magento\PageCache\Model\Config->getType()
+#6 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(142): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#7 /var/www/html/var/generation/Magento/Framework/App/FrontController/Interceptor.php(26): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, Array)
+#8 /var/www/html/vendor/magento/framework/App/Http.php(135): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#9 /var/www/html/vendor/magento/framework/App/Bootstrap.php(258): Magento\Framework\App\Http->launch()
+#10 /var/www/html/pub/index.php(37): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http))
+#11 {main}";s:3:"url";s:1:"/";s:11:"script_name";s:10:"/index.php";}
