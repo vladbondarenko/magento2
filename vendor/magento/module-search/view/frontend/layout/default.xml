@@ -10,7 +10,6 @@
         <referenceContainer name="header-wrapper">
             <block class="Magento\Framework\View\Element\Template" name="top.search" as="topSearch" template="Magento_Search::form.mini.phtml" />
         </referenceContainer>
-        <!--
         <referenceBlock name="footer_links">
             <block class="Magento\Framework\View\Element\Html\Link\Current" ifconfig="catalog/seo/search_terms" name="search-term-popular-link">
                 <arguments>
@@ -18,6 +17,6 @@
                     <argument name="path" xsi:type="string">search/term/popular</argument>
                 </arguments>
             </block>
-        </referenceBlock> -->
+        </referenceBlock>
     </body>
 </page>

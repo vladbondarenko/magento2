@@ -13,7 +13,6 @@
         <referenceContainer name="sidebar.additional">
             <block class="Magento\Sales\Block\Reorder\Sidebar" name="sale.reorder.sidebar" as="reorder" template="reorder/sidebar.phtml"/>
         </referenceContainer>
-        <!--
         <referenceBlock name="footer_links">
             <block class="Magento\Sales\Block\Guest\Link" name="sales-guest-form-link">
                 <arguments>
@@ -21,6 +20,6 @@
                     <argument name="path" xsi:type="string">sales/guest/form</argument>
                 </arguments>
             </block>
-        </referenceBlock> -->
+        </referenceBlock>
     </body>
 </page>

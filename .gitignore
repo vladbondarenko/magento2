@@ -4,9 +4,6 @@
 app/code/core/
 app/design/install/
 app/.htaccess
-app/bootstrap.php
-app/locale/en_US/
-app/Mage.php
 /cron.php
 cron.sh
 dev/.htaccess
@@ -22,3 +19,4 @@ var/di
 var/generation
 var/view_preprocessed
 var/backups
+var/cache
